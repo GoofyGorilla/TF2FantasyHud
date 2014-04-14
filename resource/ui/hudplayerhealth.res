@@ -5,12 +5,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
+		"xpos"			"c-250"		[$WIN32]
+		"ypos"			"c125"	[$WIN32]
+		"xpos"			"0"	[$X360]
+		"ypos"			"0"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -32,23 +30,8 @@
 		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}			
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,8 +69,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
-		"fgcolor"		"TanDark"
+		"font"			"FantasyBalanced16"
+		"fgcolor"		"TanLight"
 	}								
 	"PlayerStatusBleedImage"
 	{
@@ -103,7 +86,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}		
 	"PlayerStatusMilkImage"
 	{
@@ -119,7 +102,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -135,7 +118,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -151,7 +134,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -167,7 +150,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -183,7 +166,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -199,7 +182,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -216,7 +199,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -232,7 +215,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -248,7 +231,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 	
 
@@ -267,7 +250,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
@@ -284,7 +267,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -301,7 +284,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -318,6 +301,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"TanLight"
 	}
 }
